@@ -15,10 +15,10 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 Em um cenário em que a concorrência entre mercados está cada mais acirrada, um Serviço de Atendimento ao Cliente de qualidade torna-se diferencial competitivo. Para a VTEX, empresa multinacional brasileira de tecnologia, desenvolvedora da plataforma VTEX Cloud Commerce, esse time de atendimento denominado Customer Excellence, presta suporte especializado sobre os mais diversos temas que envolvem o funcionamento de sua infraestrutura *multitenant*.
 
-Para potencializar a formação de profissionais e contribuir para a curva de aprendizado de novos analistas, tornando o processo de on boarding escalável e mensurável, o presente Trabalho de Conclusão de Curso tem como objetivo apresentar uma Proof of Concept (PoC), ou Prova de Conceito, utilizando técnicas de ______, com o objetivo fim de automatizar a classificação de chamados de acordo com quatro níveis de complexidade: *“Low”, “Moderate”, “High” e “Very High”.*
+Para potencializar a formação de profissionais e contribuir para a curva de aprendizado de novos analistas, tornando o processo de on boarding escalável e mensurável, o presente Trabalho de Conclusão de Curso tem como objetivo apresentar uma Proof of Concept (PoC), ou Prova de Conceito, utilizando técnicas de classificação, com o objetivo fim de prever as classes de saída de chamados de acordo com quatro níveis de complexidade: *“Low”, “Moderate”, “High” e “Very High”.*
 
 O modelo utiliza como base dados estruturados obtidos através da ferramenta Zendesk, canal oficial de comunicação do suporte VTEX. Dentre os dados coletados, é possível encontrar informações referentes ao nível de conhecimento da plataforma do usuário responsável pela abertura do chamado, assim como contexto da organização e funcionamento de seu ecommerce.
-O trabalho foi desenvolvido utilizando linguagem Python, com o auxílio das bibliotecas ______.
+O trabalho foi desenvolvido utilizando linguagem Python, com o auxílio das bibliotecas *DecisionTreeClassifier, RandomForestClassifier* e *SVC*.
 
 
 ---
